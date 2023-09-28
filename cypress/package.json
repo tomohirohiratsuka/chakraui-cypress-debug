@@ -1,0 +1,14 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "e2e",
+  "scripts": {
+    "cypress:run": "cypress:run",
+    "cypress:open": "cypress open"
+  },
+  "author": "tomohiro hiratsuka",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.3.0"
+  }
+}

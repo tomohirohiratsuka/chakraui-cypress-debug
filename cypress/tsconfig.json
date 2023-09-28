@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "isolatedModules": false,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "types": [
+      "cypress",
+      "cypress-file-upload",
+      "@testing-library/cypress",
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "cypress/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
